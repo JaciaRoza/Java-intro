@@ -1,0 +1,48 @@
+
+Jacia Roza <jaciar@nycstudents.net>
+Mon, Sep 8, 7:44 AM (1 day ago)
+to me
+
+package javaPack;
+
+
+
+import java.util.Scanner;
+
+
+
+public class InputOutput {
+
+	
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		
+
+		System.out.print("Enter first number: ");
+
+		double num1 = input.nextDouble();
+
+		
+
+		System.out.print("Enter second number: ");
+
+		double num2 = input.nextDouble();
+
+		
+
+		System.out.println("Sum = " + (num1 + num2));
+
+		System.out.println("Difference = " + (num1 - num2));
+
+		System.out.println("Product = " + (num1 * num2));
+
+		System.out.println("Quotient = " + (num1 / num2));
+
+	}
+
+
+
+}

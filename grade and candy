@@ -1,0 +1,76 @@
+package javaPack;
+
+import java.util.Scanner;
+
+
+
+public class CandyFriends {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+
+
+		System.out.print("Enter total candies: ");
+
+		int candies = input.nextInt();
+
+		
+
+		System.out.print("Enter number of students: ");
+
+		int students = input.nextInt();
+
+	
+
+		System.out.print("Enter a grade: ");
+
+		int num1 = input.nextInt();
+
+		
+
+		System.out.print("Enter a grade: ");
+
+		int num2 = input.nextInt();
+
+		
+
+		System.out.print("Enter a grade: ");
+
+		int num3 = input.nextInt();
+
+		
+
+		System.out.print("Enter a grade: ");
+
+		int num4 = input.nextInt();
+
+		
+
+		System.out.print("Enter a grade: ");
+
+		int num5 = input.nextInt();
+
+		
+
+		int average = ((num1 + num2+ num3 + num4 + num5)/5);		
+
+		int eachGets = candies / students;
+
+		int leftover = candies % students;
+
+		
+
+		System.out.println("Each student gets " + eachGets + " candies. ");
+
+		System.out.println("Leftover candies: " + leftover);
+
+		System.out.println("Your average: " + average);
+
+
+
+	}
+
+}
+
